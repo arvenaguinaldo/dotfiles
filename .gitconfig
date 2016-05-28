@@ -1,0 +1,27 @@
+[user]
+	name = Arven Aguinaldo
+	email = arvencaguinaldo@gmail.com
+[color]
+	ui = auto
+[alias]
+	st = status
+	ci = commit
+	br = branch
+	co = checkout
+	df = diff
+	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+[core]
+	excludesfile = ~/.gitignore
+	editor = subl -n -w
+	autocrlf = input
+	safecrlf = true
+[diff]
+	tool = opendiff
+[difftool]
+  prompt = false
+[merge]
+	tool = opendiff
+[push]
+	default = simple
+[credential]
+	helper = osxkeychain
